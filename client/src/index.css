@@ -19,6 +19,12 @@ code {
   top: 0;
 }
 
+.icon{
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets/list.svg");
+}
+
 .img-container{
   text-align: center;
   width: 200px;

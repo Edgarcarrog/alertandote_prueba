@@ -38,7 +38,8 @@ const Nav = () => {
                 aria-expanded="false"
                 aria-controls="collapseExample"
               >
-                Navbar
+                <div className="icon">
+                </div>
               </a>
             </div>
           </nav>
