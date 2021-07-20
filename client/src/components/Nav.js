@@ -38,17 +38,27 @@ const Nav = () => {
                 aria-expanded="false"
                 aria-controls="collapseExample"
               >
-                <div className="icon">
+                <div className="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-list"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                    />
+                  </svg>
                 </div>
               </a>
             </div>
           </nav>
         </div>
         <div className="col-9 p-0 d-flex justify-content-center align-items-center">
-          <div
-            className="collapse p-0"
-            id="collapseExample"
-          >
+          <div className="collapse p-0" id="collapseExample">
             <p className="light-text secondary-text m-0 pl-3">{mainTitle}</p>
           </div>
         </div>
