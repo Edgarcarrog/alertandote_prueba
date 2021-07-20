@@ -1,12 +1,13 @@
 import Nav from "./components/Nav";
+import MainState from "./context/state";
 
 function App() {
   return (
-    <div className="App">
+    <MainState>
       <div className="container-fluid">
         <Nav />
       </div>
-    </div>
+    </MainState>
   );
 }
 

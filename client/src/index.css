@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #000;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
@@ -12,6 +13,100 @@ code {
     monospace;
 }
 
-.card-style{
-  background-color: teal;
+.nav-red{
+  background-color: rgb(138, 13, 13);
+  position: sticky;
+  top: 0;
+}
+
+.img-container{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+.small-image{
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+  border-radius: 50%;
+  border:1px solid rgb(138, 13, 13);
+}
+
+.large-image{
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.movie-detail{
+  border: 1px solid rgb(138, 13, 13);
+  border-radius: 0.5rem;
+}
+
+.card-detail{
+  background-color: rgb(17, 15, 15);
+  border-radius: 0.5rem;
+}
+
+.light-text{
+  color: rgb(238, 238, 216);
+}
+
+
+@media (min-width: 992px) {
+  
+  .main-text{
+    font-size: 2rem;
+  }
+
+  .secondary-text{
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media (max-width: 991px) and (min-width: 790px) {
+  
+  .main-text{
+    font-size: 1.5rem;
+  }
+
+  .secondary-text{
+    font-size: 1.2rem;
+  }
+  
+}
+
+@media (max-width: 789px) and (min-width: 576px) {
+  
+  .main-text{
+    font-size: 1.2rem;
+  }
+
+  .secondary-text{
+    font-size: 1rem;
+  }
+  
+}
+
+@media (max-width: 575px) {
+  
+  .main-text{
+    font-size: 0.8rem;
+  }
+
+  .secondary-text{
+    font-size: 1rem;
+  }
+
+  .detail-text{
+    font-size: 0.7rem;
+  }
+
+  .img-container{
+    text-align: center;
+    width: 120px;
+    height: 120px;
+  }
+  
 }
