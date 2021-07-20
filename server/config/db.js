@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const conectarDB = async () => {
   try {
-    await mongoose.connect(process.env.DB_MONGO, {
+    await mongoose.connect(process.env.DB_MONGO_ATLAS, {
       useCreateIndex: true,
       useNewUrlParser: true,
       useUnifiedTopology: true,
